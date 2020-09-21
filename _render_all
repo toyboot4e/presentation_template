@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")"
+
+fd -e adoc -E README.adoc | xargs -I{} ./_render '{}'
+
+echo ''
+

@@ -1,0 +1,19 @@
+= Presentation template
+
+See https://asciidoctor.org/docs/asciidoctor-revealjs/
+
+Installing the gem into the project:
+
+[source,sh]
+----
+$ bundle config --local github.https true
+$ bundle --path=.bundle/gems --binstubs=.bundle/.bin
+----
+
+If you have https://github.com/watchexec/watchexec[watchexec] in your `PATH`, you can run `_watch` to automate converting your `.adoc` files in the `src/` directory:
+
+[source,sh]
+----
+$ ./_watch
+----
+
