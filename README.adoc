@@ -16,7 +16,7 @@ $ bundle --path=.bundle/gems --binstubs=.bundle/.bin
 
 == Usage
 
-If you have https://github.com/watchexec/watchexec[watchexec] in your `PATH`, you can run `_watch` to automate converting your `.adoc` files in the `src/` directory:
+If you have https://github.com/watchexec/watchexec[watchexec] and https://github.com/sharkdp/fd[fd] in your `PATH`, you can run `_watch` to automate converting your `.adoc` files in the `src/` directory:
 
 [source,sh]
 ----
