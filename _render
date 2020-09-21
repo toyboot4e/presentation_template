@@ -2,16 +2,19 @@
 
 cd "$(dirname "$0")"
 
-# log for watch
+# log for `_watch` script
 echo "render $1"
 
 bundle exec asciidoctor-revealjs \
-    -a revealjsdir=https://cdn.jsdelivr.net/npm/reveal.js@3.9.2 \
-    -a revealjs_theme=serif \
-    -a revealjs_transition=none \
-    -a revealjs_controls=false \
-    -a revealjs_progress=false \
-    -a revealjs_slideNumber=c/t \
-    -D slides \
+    -a revealjsdir=https://cdn.jsdelivr.net/npm/reveal.js@3.9.2@\
+    -a revealjs_theme=serif@\
+    -a revealjs_transition=none@\
+    -a revealjs_controls=false@\
+    -a revealjs_progress=false@\
+    -a revealjs_slideNumber=c/t@\
+    -D slides\
     "$1"
+
+# -a: set document attribute (value name with postfix `@` means the value can be overridden in each `.adoc` file)
+# -D: destination directory, output directory
 
