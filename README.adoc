@@ -1,6 +1,6 @@
 = Presentation template
 
-A project template with very basic supports.
+An Asciidoctor reveal.js project template with very basic supports.
 
 See https://asciidoctor.org/docs/asciidoctor-revealjs/
 
@@ -27,9 +27,9 @@ Then you'll see html files in `slides/` directory.
 
 == Customization
 
-`_render` sets some default document attributes. You can override them in your `.adoc` file or you can modify the script.
+`_render` sets some default document https://asciidoctor.org/docs/user-manual/#attributes[attributes]. You can override them in your `.adoc` file or you can modify the script.
 
-* options: https://asciidoctor.org/docs/asciidoctor-revealjs/#reveal-js-options
+* reveal-js options: https://asciidoctor.org/docs/asciidoctor-revealjs/#reveal-js-options
 
 == Notes
 
