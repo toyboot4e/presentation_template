@@ -1,0 +1,13 @@
+/* example css */
+
+.reveal section.title h1 {
+    font-size: 2.8em;
+}
+
+.reveal h2 {
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 0.8em;
+}

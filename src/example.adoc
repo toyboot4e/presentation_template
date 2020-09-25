@@ -1,0 +1,9 @@
+= Example slide
+:author: Your Name
+// put it in `slides/`
+:customcss: slide.css
+:revealjs_width: 1280
+:revealjs_height: 720
+:revealjs_transition: slide
+:revealjs_transitionSpeed: fast
+
