@@ -1,9 +1,22 @@
 = Example slide
 :author: Your Name
-// put it in `slides/`
 :customcss: slide.css
 :revealjs_width: 1280
 :revealjs_height: 720
 :revealjs_transition: slide
 :revealjs_transitionSpeed: fast
+
+Press `Space` to go to next slide
+
+== Example slide
+
+=== Vertical slide
+
+== Horizontal slide
+
+== Default key mappings
+
+* press `ESC` to list slides
+* press `b` to black in/out
+* press `s` to show pop up html
 
