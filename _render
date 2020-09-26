@@ -12,6 +12,7 @@ bundle exec asciidoctor-revealjs \
     -a revealjs_controls@=false\
     -a revealjs_progress@=false\
     -a revealjs_slideNumber@=c/t\
+    -a source-highlighter@=highlightjs\
     -D slides\
     "$1"
 
