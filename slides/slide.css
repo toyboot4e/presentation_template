@@ -4,6 +4,12 @@
     font-size: 2.8em;
 }
 
+/* top align
+.reveal .slides section:not(.title) {
+    top: 0 !important;
+}
+*/
+
 .reveal h2 {
     font-size: 2.2em;
 }
