@@ -3,7 +3,7 @@
 :customcss: slide.css
 :revealjs_width: 1280
 :revealjs_height: 720
-:revealjs_transition: slide
+:revealjs_transition: none
 :revealjs_transitionSpeed: fast
 
 Press `Space` to go to next slide
